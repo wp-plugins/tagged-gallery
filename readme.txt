@@ -16,7 +16,7 @@ Tagged Gallery is generating a gallery based on tagged media.
 To put a gallery on your page/post just tag the page/post with *tg:spring2013* and Tagged Gallery will generate a gallery with all the images tagged with *spring2013*.
 
 
-Tagged Gallery is pedndign on two other plugins
+Tagged Gallery is pednding on two other plugins
 
 * Tag Pages by Bjorn Wijers - http://wordpress.org/extend/plugins/tag-pages/
 * WordPress Media Tags by Typomedia Foundation - http://www.typomedia.org/wordpress/plugins/wordpress-media-tags/
@@ -68,7 +68,7 @@ Please post your questions
 == Changelog ==
 
 = 0.5 =
-Initial Upload
+Initial upload
 
 
 
