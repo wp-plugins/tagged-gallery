@@ -11,6 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Image gallery that generates a gallery based on tagged media.
 
 == Description ==
+
 Tagged Gallery is generating a gallery based on tagged media. 
 To put a gallery on your page/post just tag the page/post with "tg:spring2013" and Tagged Gallery will generate a gallery with all the images tagged with "spring2013".
 
@@ -24,12 +25,11 @@ Tagged Gallery does NOT connect to any external servers. Just getting tags and i
 
 == Installation ==
 
-
-= Automatic installation =
+Easiest installatio:
 1. In wordpress admin go to Plugins -> Add plugin
 2. Search for "tagged gallery" and add
 
-= Manual Installation =
+Alternative installation
 1. Upload the`tagged-gallery` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
