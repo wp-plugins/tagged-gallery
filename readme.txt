@@ -22,6 +22,12 @@ WordPress Media Tags by Typomedia Foundation  - http://www.typomedia.org/wordpre
 
 Tagged Gallery does NOT connect to any external servers. Just getting tags and images from your WordPress database
 
+TODO:
+- Next/previous function
+- Mobile optimization
+- User defined view size
+- user defined CSS
+- Lose pendency to Tag Pages and WordPress Media Tags 
 
 == Installation ==
 
@@ -47,10 +53,10 @@ Please post your questions
 3. http://www.bergh.me/wp-content/uploads/2013/04/tg-tagging-media.jpg
 4. http://www.bergh.me/wp-content/uploads/2013/04/tagged-gallery-admin.jpg
 
+== Changelog ==
 
-== Todo ==
-- Next/previous function
-- Mobile optimization
-- User defined view size
-- user defined CSS
-- Lose pendency to Tag Pages and WordPress Media Tags 
+= 0.5 =
+Initial Upload
+
+
+
