@@ -39,9 +39,10 @@
 					if($postmime[0]=="image")
 					{
 						$img=substr($post->guid,strlen($server),strlen($post->guid)-strlen($server));
-						$string="<img class=\"tagged-gallery\" src=\"/wp-content/plugins/tagged-gallery/img.php?img=".$img."&type=thumb&size=".$height."x".$width."\" data-larger=\"/wp-content/plugins/tagged-gallery/img.php?img=".$img."&size=700x700\" alt=\"".$img."\" />";
-						 
+						
+						$string="<img src=\"".$img."\" class=\"tagged-gallery\" style=\"max-width: 500px;\" data-larger=\"/wp-content/plugins/tagged-gallery/img.php?img=".$img."&size=700x700\" alt=\"".$img."\" /> ";
 						$sup.="<div class=\"tg-thumb\">".$string."</div>";
+						//$sup.=$string;
 					}
 				}	 
 			}
