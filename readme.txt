@@ -8,7 +8,7 @@ Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Image gallery that generates a gallery based on tagged media.
+An image gallery that generates a gallery based on tagged media.
 
 == Description ==
 
@@ -17,8 +17,8 @@ To put a gallery on your page/post just tag the page/post with "tg:spring2013" a
 
 
 Tagged Gallery is pednding on two other plugins:
-Tag Pages by Bjorn Wijers - http://wordpress.org/extend/plugins/tag-pages/
-WordPress Media Tags by Typomedia Foundation  - http://www.typomedia.org/wordpress/plugins/wordpress-media-tags/
+* Tag Pages by Bjorn Wijers - http://wordpress.org/extend/plugins/tag-pages/
+* WordPress Media Tags by Typomedia Foundation  - http://www.typomedia.org/wordpress/plugins/wordpress-media-tags/
 
 Tagged Gallery does NOT connect to any external servers. Just getting tags and images from your WordPress database
 
@@ -28,14 +28,12 @@ Tagged Gallery does NOT connect to any external servers. Just getting tags and i
 Easiest installation:
 
 1. In wordpress admin go to Plugins -> Add plugin
-
 2. Search for "tagged gallery" and add
 
 
 Alternative installation:
 
 1. Upload the`tagged-gallery` folder to the `/wp-content/plugins/` directory
-
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently asked questions ==
@@ -48,11 +46,8 @@ Please post your questions
 == Screenshots ==
 
 1. http://www.bergh.me/wp-content/uploads/2013/04/tagged-gallery.jpg
-
 2. http://www.bergh.me/wp-content/uploads/2013/04/tg-tagging-page.jpg
-
 3. http://www.bergh.me/wp-content/uploads/2013/04/tg-tagging-media.jpg
-
 4. http://www.bergh.me/wp-content/uploads/2013/04/tagged-gallery-admin.jpg
 
 
