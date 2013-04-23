@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Tagged Gallery
-Plugin URI: http://www.bergh.me/prosjekter/tagged-gallery/
+Plugin URI: http://wordpress.org/extend/plugins/tagged-gallery/
 Description: Gallery
 Author: Erik Bergh
 Version: 0.5
