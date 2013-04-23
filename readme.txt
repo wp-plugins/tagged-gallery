@@ -59,7 +59,7 @@ Please post your questions
 2. In the admin interface you can define the size of your thumbs
 3. Tagging an image 'tg-test'
 4. Tagging a page 'tg:tg-test' to generate a gallery of pictures tagged 'tg-test'
-
+5. If you click on an image it will open like this
 
 == Todo ==
 - Next/previous function

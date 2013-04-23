@@ -23,7 +23,7 @@ img .tagged-gallery
 
 div .tg-thumb 
 {   
-	margin: 0 5px 0 0;
+	margin: 0 5px 5px 0;
 	padding: 0 0 0 0;
 	line-height: 0;
 	background: url(/wp-content/plugins/tagged-gallery/images/logo.jpg) no-repeat;
