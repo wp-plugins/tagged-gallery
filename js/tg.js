@@ -27,7 +27,7 @@ function restore() {
 
 
 window.onload=function() {
-   var imgs = document.getElementsByClassName("tagged-gallery");
+   var imgs = document.getElementsByClassName("tg-resizecrop");
    imgs[0].focus();
    for (var i = 0; i < imgs.length; i++) {
      imgs[i].onclick=expandPhoto;
