@@ -25,12 +25,17 @@ Tagged Gallery does NOT connect to any external servers. Just getting tags and i
 
 == Installation ==
 
-Easiest installatio:
+Easiest installation:
+
 1. In wordpress admin go to Plugins -> Add plugin
+
 2. Search for "tagged gallery" and add
 
-Alternative installation
+
+Alternative installation:
+
 1. Upload the`tagged-gallery` folder to the `/wp-content/plugins/` directory
+
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently asked questions ==
@@ -43,8 +48,11 @@ Please post your questions
 == Screenshots ==
 
 1. http://www.bergh.me/wp-content/uploads/2013/04/tagged-gallery.jpg
+
 2. http://www.bergh.me/wp-content/uploads/2013/04/tg-tagging-page.jpg
+
 3. http://www.bergh.me/wp-content/uploads/2013/04/tg-tagging-media.jpg
+
 4. http://www.bergh.me/wp-content/uploads/2013/04/tagged-gallery-admin.jpg
 
 
