@@ -4,7 +4,7 @@ Plugin Name: Tagged Gallery
 Plugin URI: http://wordpress.org/extend/plugins/tagged-gallery/
 Description: Gallery
 Author: Erik Bergh
-Version: 0.5
+Version: 0.6
 Author URI: http://www.bergh.me
 */
 
