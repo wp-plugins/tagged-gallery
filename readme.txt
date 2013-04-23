@@ -1,4 +1,4 @@
-=== Tagged Gallery ===
+﻿=== Tagged Gallery ===
 Contributors: bergh
 Donate link: 
 Tags:  Gallery, Tags
