@@ -41,10 +41,10 @@ Please post your questions
 
 == Screenshots ==
 
-1. /assets/tagged-gallery.jpg
-2. /assets/tg-tagging-page.jpg
-3. /assets/tg-tagging-media.jpg
-4. /assets/tagged-gallery-admin.jpg
+1. This is the thumbs in a gallery
+2. In the admin interface you can define the size of your thumbs
+3. Tagging an image 'tg-test'
+4. Tagging a page 'tg:tg-test' to generate a gallery of pictures tagged 'tg-test'
 
 
 == Todo ==
