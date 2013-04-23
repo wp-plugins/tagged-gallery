@@ -14,11 +14,13 @@ An image gallery that generates a gallery based on tagged media.
 
 Tagged Gallery is generating a gallery based on tagged media. 
 
-= Useage =
+Useage
+
 *	Tag a image in your media library. For this example we use 'Spring2013'
 *	Make a page or a blogpost where you want to display your images and tag that post/page with 'tg:Spring2013' and Tagged Gallery will create an image gallery of alle the images tagged with 'Spring2013'
 
-= Dependency =
+Dependency
+
 *	Tag Pages by Bjorn Wijers - http://wordpress.org/extend/plugins/tag-pages/
 *	WordPress Media Tags by Typomedia Foundation  - http://www.typomedia.org/wordpress/plugins/wordpress-media-tags/
 Tagged Gallery does NOT connect to any external servers. Just getting tags and images from your WordPress database
