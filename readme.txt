@@ -8,11 +8,11 @@ Stable tag: 0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-An image gallery that generates a gallery based on tagged media.
+Tagged Gallery enables you to easily generate a gallery in any post or page based on tagged media. 
 
 == Description ==
 
-Tagged Gallery is generating a gallery based on tagged media. 
+Tagged Gallery enables you to easily generate a gallery in any post or page based on tagged media. 
 
 Useage
 
