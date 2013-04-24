@@ -28,9 +28,5 @@ div .tg-thumb
 	line-height: 0;
 	background: url(/wp-content/plugins/tagged-gallery/images/logo.jpg) no-repeat;
 	background-size: 100%;
-	width: 150px;
-	min-height:150px;
-    height:auto !important;
-    height:150px; 
 	display: inline-block; 
 }

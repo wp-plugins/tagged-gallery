@@ -21,7 +21,9 @@ jQuery(document).ready(function($){
             var $obj = $(this);
             $obj.css("display","none"); // remove blink transformation
             $obj.removeAttr("width").removeAttr("height"); // remove attribute dimensions
-
+			options.width = $obj.attr("thumb-width");
+			options.height = $obj.attr("thumb-height");
+			
             // Wrapper default CSS 
             var wrapper = $(document.createElement(options.wrapper)).css({
                 width: options.width,

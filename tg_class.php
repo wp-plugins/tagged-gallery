@@ -13,6 +13,7 @@
 		{
 			$height = get_option('tg_thumb_height');
 			$width = get_option('tg_thumb_width');
+			
 			foreach($posttags as $tag)
 			{
 				$count++;
@@ -40,7 +41,7 @@
 					{
 						$img=substr($post->guid,strlen($server),strlen($post->guid)-strlen($server));
 						
-						$string="<img src=\"".$img."\" class=\"tagged-gallery\" style=\"max-width: 500px;\" data-larger=\"/wp-content/plugins/tagged-gallery/img.php?img=".$img."&size=700x700\" alt=\"".$img."\" /> ";
+						$string="<img src=\"".$img."\" class=\"tagged-gallery\" style=\"max-width: none;\" thumb-width=\"".$width."\" thumb-height=\"".$height."\" data-larger=\"/wp-content/plugins/tagged-gallery/img.php?img=".$img."&size=700x700\" alt=\"".$img."\" /> ";
 						$sup.="<div class=\"tg-thumb\">".$string."</div>";
 						//$sup.=$string;
 					}

@@ -4,7 +4,7 @@ Donate link:
 Tags:  Gallery, Tags
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 0.6
+Stable tag: 0.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,16 +14,23 @@ Tagged Gallery enables you to easily generate a gallery in any post or page base
 
 Tagged Gallery enables you to easily generate a gallery in any post or page based on tagged media. 
 
-Useage
+= Useage = 
 
 *	Tag a image in your media library. For this example we use 'Spring2013'
 *	Make a page or a blogpost where you want to display your images and tag that post/page with 'tg:Spring2013' and Tagged Gallery will create an image gallery of alle the images tagged with 'Spring2013'
+*	Remeber to set thumb size in admin interface :)
 
-Dependency
+= Dependency =
 
 *	Tag Pages by Bjorn Wijers - http://wordpress.org/extend/plugins/tag-pages/
 *	WordPress Media Tags by Typomedia Foundation  - http://www.typomedia.org/wordpress/plugins/wordpress-media-tags/
+
 Tagged Gallery does NOT connect to any external servers. Just getting tags and images from your WordPress database
+
+= 0.6.1 =
+
+Bugfix - in 0.6 i added the jQuery and forgot to add the values from Tagged Gallery settings.
+
 
 = 0.6 =
 
@@ -70,3 +77,6 @@ Please post your questions
 
 == Upgrade Notice ==
 
+"Bugfix"
+
+When I converted into jQuery for the thummaking, I forgot to remove hardcoded values from the jq-script and add variables. This is now fixed.
