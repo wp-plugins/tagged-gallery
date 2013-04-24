@@ -28,7 +28,7 @@ Tagged Gallery enables you to easily generate a gallery in any post or page base
 Tagged Gallery does NOT connect to any external servers. Just getting tags and images from your WordPress database
 
 = 0.6.1 =
-
+ 
 Bugfix - in 0.6 i added the jQuery and forgot to add the values from Tagged Gallery settings.
 
 
@@ -42,16 +42,20 @@ Initial upload
 
 == Installation ==
 
-Easiest installation:
+= Easiest installation =
 
 1. In wordpress admin go to Plugins -> Add plugin
 2. Search for "tagged gallery" and add
+3. Set thumb size in Tagged Gallery settings
 
 
-Alternative installation:
+= Alternative installation =
 
 1. Upload the`tagged-gallery` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Set thumb size in Tagged Gallery settings
+
+
 
 == Frequently asked questions ==
 
