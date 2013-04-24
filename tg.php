@@ -2,7 +2,7 @@
 /*
 Plugin Name: Tagged Gallery
 Plugin URI: http://wordpress.org/extend/plugins/tagged-gallery/
-Description: Gallery
+Description: Tagged Gallery enables you to easily generate a gallery in any post or page based on tagged media.
 Author: Erik Bergh
 Version: 0.6
 Author URI: http://www.bergh.me
