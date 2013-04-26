@@ -29,7 +29,7 @@ Tagged Gallery does NOT connect to any external servers. Just getting tags and i
 
 = 0.6.1 =
  
-Bugfix - in 0.6 i added the jQuery and forgot to add the values from Tagged Gallery settings.
+Bugfix - in 0.6 i added the jQuery and forgot to add the values from Tagged Gallery settings. 
 
 
 = 0.6 =
