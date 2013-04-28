@@ -66,9 +66,8 @@ Initial upload
 
 == Frequently asked questions ==
 
-First upload so non yet.
-
-Please post your questions
+= Does Tagged Gallery use WordPress thumbs or does it make its own =
+Tagged Gallery make it's own thumbs. 
 
 
 == Screenshots ==
