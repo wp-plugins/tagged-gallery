@@ -70,6 +70,10 @@ Initial upload
 
 Tagged Gallery make its own thumbs. 
 
+= Does Tagged Gallery support Lightbox or jQuery-plugins like that? =
+
+Tagged Gallery har its own lightbox feature called tgbox.
+
 
 == Screenshots ==
 
