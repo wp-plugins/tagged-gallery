@@ -66,8 +66,13 @@ Initial upload
 
 == Frequently asked questions ==
 
-= Does Tagged Gallery use WordPress thumbs or does it make its own =
-Tagged Gallery make it's own thumbs. 
+= Does Tagged Gallery use WordPress thumbs or does it make its own? =
+
+Tagged Gallery make its own thumbs. 
+
+= Does Tagged Gallery support Lightbox or jQuery-plugins like that? =
+
+Tagged Gallery har its own lightbox feature called tgbox.
 
 
 == Screenshots ==
