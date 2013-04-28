@@ -4,7 +4,7 @@ Donate link:
 Tags:  Gallery, Tags
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 0.6.1
+Stable tag: 0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,13 @@ Tagged Gallery enables you to easily generate a gallery in any post or page base
 *	WordPress Media Tags by Typomedia Foundation  - http://www.typomedia.org/wordpress/plugins/wordpress-media-tags/
 
 Tagged Gallery does NOT connect to any external servers. Just getting tags and images from your WordPress database
+
+= 0.7 =
+
+*	PHPImagic is completely replaced with jQuery
+*	New view image feature created in jQuery. That now fit to screen.
+*	Support for mobile screen rotation. Image resizes to fit window resize
+
 
 = 0.6.1 =
  
@@ -74,13 +81,11 @@ Please post your questions
 
 == Todo ==
 - Next/previous function
-- Mobile optimization
-- User defined view size
 - user defined CSS
 - Lose pendency to Tag Pages and WordPress Media Tags 
 
 == Upgrade Notice ==
 
-"Bugfix"
-
-When I converted into jQuery for the thummaking, I forgot to remove hardcoded values from the jq-script and add variables. This is now fixed.
+*	PHPImagic is completely replaced with jQuery
+*	New view image feature created in jQuery. That now fit to screen.
+*	Support for mobile screen rotation. Image resizes to fit window resize

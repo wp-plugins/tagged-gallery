@@ -35,13 +35,15 @@
 			//3$sup.="<h2>".$querystr."</h2>";
 			if($wpdb->num_rows>0)
 			{	
+				$i=0;
 				foreach ($test as $post){
+					$i++;
 					$postmime=explode('/',$post->post_mime_type);
 					if($postmime[0]=="image")
 					{
 						$img=substr($post->guid,strlen($server),strlen($post->guid)-strlen($server));
 						
-						$string="<img src=\"".$img."\" class=\"tagged-gallery\" style=\"max-width: none;\" thumb-width=\"".$width."\" thumb-height=\"".$height."\" data-larger=\"/wp-content/plugins/tagged-gallery/img.php?img=".$img."&size=700x700\" alt=\"".$img."\" /> ";
+						$string="<img src=\"".$img."\" class=\"tagged-gallery\" style=\"max-width: none;\" thumb-width=\"".$width."\" picnum=\"".$i."\" thumb-height=\"".$height."\" data-larger=\"".$img."\" alt=\"Descritption\" /> ";
 						$sup.="<div class=\"tg-thumb\">".$string."</div>";
 						//$sup.=$string;
 					}

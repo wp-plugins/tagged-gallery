@@ -1,36 +1,7 @@
-function expandPhoto() {
-
-   // create overlay and append to page
-   var overlay = document.createElement("div");
-   overlay.setAttribute("id","overlay");
-   overlay.setAttribute("class", "overlay");
-   document.body.appendChild(overlay);
-
-   // create image and append to page
-   var img = document.createElement("img");
-   img.setAttribute("id","img");
-   img.src = this.getAttribute("data-larger");
-   img.setAttribute("class","overlayimg");
-
-   // click to restore page
-   img.onclick=restore;
-
-   document.body.appendChild(img);
-
-}
-// restore page to normal
-function restore() {
-
- document.body.removeChild(document.getElementById("overlay"));
- document.body.removeChild(document.getElementById("img"));
-}
-
-
-window.onload=function() {
-   var imgs = document.getElementsByClassName("tg-resizecrop");
-   imgs[0].focus();
-   for (var i = 0; i < imgs.length; i++) {
-     imgs[i].onclick=expandPhoto;
-     imgs[i].onkeydown=expandPhoto;
-   }
-}
+$j=jQuery.noConflict();
+$j(document).ready(function(){    
+  $j('.tg-resizecrop').click(function(event){
+    $j(this).tgbox({});
+    event.preventDefault(); 
+  });
+});

@@ -1,3 +1,8 @@
+//
+// This is a modyfied version of resize-crop
+// https://code.google.com/p/resize-crop/
+// 
+
 jQuery(document).ready(function($){ 
     $.fn.resizecrop = function(options) {  
 
@@ -21,8 +26,9 @@ jQuery(document).ready(function($){
             var $obj = $(this);
             $obj.css("display","none"); // remove blink transformation
             $obj.removeAttr("width").removeAttr("height"); // remove attribute dimensions
-			options.width = $obj.attr("thumb-width");
-			options.height = $obj.attr("thumb-height");
+			options.width = $obj.attr("thumb-width"); // Added by Tagged Gallery
+			options.height = $obj.attr("thumb-height"); // Added by Tagged Gallery
+			
 			
             // Wrapper default CSS 
             var wrapper = $(document.createElement(options.wrapper)).css({
@@ -36,7 +42,7 @@ jQuery(document).ready(function($){
 
             // move Classes from IMG to Wrapper element 
             if (options.moveClass) {
-
+ 
                 var classAttr = $obj.attr("class");
 
                 if (typeof classAttr !== 'undefined' && classAttr !== false && classAttr !== "") {
@@ -47,7 +53,7 @@ jQuery(document).ready(function($){
                     });
                     $obj.removeAttr("class");
                     $obj.addClass(options.className);
-                }
+                }				
             }
 
             // move Id from IMG to Wrapper element 
@@ -66,6 +72,9 @@ jQuery(document).ready(function($){
             
                 width_ratio  = options.width  / ref.width();
                 height_ratio = options.height / ref.height();
+				
+				ref.attr("fs-width", ref.width());
+				ref.attr("fs-height", ref.height());
 				
                 if (width_ratio > height_ratio) {
                     if (options.zoom || width_ratio < 1)
@@ -126,4 +135,4 @@ jQuery(document).ready(function($){
         
     };
     $.fn.cropresize = $.fn.resizecrop; // -- deprecated, Backward compatibility
-})(jQuery);
+});(jQuery);
