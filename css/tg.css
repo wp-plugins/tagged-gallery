@@ -1,0 +1,27 @@
+.overlay
+{
+	position: fixed; top: 0; left: 0;
+	width: 100%; height: 100%;
+	z-index: 100;
+}
+.overlayimg
+{
+  z-index: 110;
+  position: fixed; center; 
+}
+
+img .tagged-gallery
+{
+ margin: 0 0 0 0;
+ padding: 0 0 0 0;
+}
+
+div .tg-thumb 
+{   
+	margin: 0 5px 5px 0;
+	padding: 0 0 0 0;
+	line-height: 0;
+	background: url(/wp-content/plugins/tagged-gallery/images/logo.jpg) no-repeat;
+	background-size: 100%;
+	display: inline-block; 
+}
