@@ -58,7 +58,7 @@ Initial upload
 
 = Alternative installation =
 
-1. Upload the`tagged-gallery` folder to the `/wp-content/plugins/` directory
+1. Upload the `tagged-gallery` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Set thumb size in Tagged Gallery settings
 
@@ -84,7 +84,7 @@ Tagged Gallery har its own lightbox feature called tgbox.
 5. If you click on an image it will open like this
 
 == Todo ==
-- Next/previous function
+- Next/previous function 
 - user defined CSS
 - Lose pendency to Tag Pages and WordPress Media Tags 
 
